@@ -1,2 +1,1 @@
-# zhangxuying1004.github.io
-Note that, my homepage refers to https://lmbxmu.github.io/ and https://luogen1996.github.io/.
+This is the source code of Xu-Ying Zhang (张旭迎)'s public academic website: https://zhangxuying1004.github.io/.
