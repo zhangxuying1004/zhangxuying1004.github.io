@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 
-  <title>TripAR3D: Creating High-quality 3D Assets via Next-Part Prediction</title>
+  <title>TAR3D: Creating High-quality 3D Assets via Next-Part Prediction</title>
   
   <meta name="author" content="Xuying Zhang">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,7 +19,7 @@
     <div style="width: 100%;">
         <!-- Title -->
         <div class="root-content" style="padding-top: 30px;">
-            <name>TripAR3D: Creating High-quality 3D Assets via Next-Part Prediction</name>
+            <name>TAR3D: Creating High-quality 3D Assets via Next-Part Prediction</name>
             <br>
             <div id="author-list"">
                 <a href="https://zhangxuying1004.github.io">Xuying Zhang</a><sup>1*</sup>&nbsp;&nbsp;&nbsp;
@@ -94,9 +94,9 @@
         <!-- Visual Results -->
         <div style="background-color: #f5f5f5; margin-right: auto; margin-left: auto;">
             <div class="root-content" style="padding-top: 10px;">
-                <h1 class="section-name">&#128293; 3D Asset Gallery of TripAR3D &#128293;</h1>
+                <h1 class="section-name">&#128293; 3D Asset Gallery of Our TAR3D &#128293;</h1>
                 <p align="center">
-                    <img src="assets/gallery.png" alt="3d asset gallery" width="600"/>
+                    <img src="assets/gallery.png" alt="3d asset gallery" width="1000"/>
                 </p>
                 <br>
             </div>
@@ -108,7 +108,7 @@
             <div class="section-content">
             <h1 class="section-name"> Abstract </h1>
                 <p class="section-content-text">
-                    We present TripAR3D, a novel framework that consists of a 3D-aware Vector Quantized-Variational AutoEncoder (VQ-VAE) and a Generative Pre-trained Transformer
+                    We present TAR3D, a novel framework that consists of a 3D-aware Vector Quantized-Variational AutoEncoder (VQ-VAE) and a Generative Pre-trained Transformer
                     (GPT) to generate high-quality 3D assets. The core insight of this work is to migrate the multimodal unification
                     and promising learning capabilities of the next-token prediction paradigm to conditional 3D object generation. To
                     achieve this, the 3D VQ-VAE first encodes a wide range of
@@ -119,7 +119,7 @@
                     predicts the codebook index sequence with prefilling prompt tokens in an autoregressive manner so that the composition
                     of 3D geometries can be modeled part by part. Extensive
                     experiments on ShapeNet and Objaverse demonstrate that
-                    TripAR3D can achieve superior generation quality over existing methods in text-to-3D and image-to-3D tasks. 
+                    TAR3D can achieve superior generation quality over existing methods in text-to-3D and image-to-3D tasks. 
                 </p>
             </div>
 
@@ -127,7 +127,7 @@
                 <h1 class="section-name">Method</h1>
                 <img src="assets/method.png" width="1000"/>
                 <p class="section-content-text">
-                    Overall architecture of the proposed TripAR3D framework. (a) 3D VQ-VAE first encodes the point cloud uniformly sampled
+                    Overall architecture of the proposed TAR3D framework. (a) 3D VQ-VAE first encodes the point cloud uniformly sampled
                     from 3D meshes into a set of learnable tokens in the triplane latent space. Then, these continuous triplane features are quantized as discrete
                     embeddings from a trainable codebook. Next, these quantized representations are deformed twice, along with two self-attention modules
                     in several attention layers to achieve feature enhancement in each plane and information interaction among the three planes. Subsequently,
@@ -166,8 +166,8 @@
                 <a name="bib"></a>
                 <pre style="margin-top: 5px;" class="bibtex">
                     <code>
-@inproceedings{zhang2024tripar3d,
-    title={TripAR3D: Creating High-quality 3D Assets via Next-Part Prediction},
+@inproceedings{zhang2024TAR3D,
+    title={TAR3D: Creating High-quality 3D Assets via Next-Part Prediction},
     author={Zhang, Xuying and Liu, Yutong and Li, Yangguang and Zhang, Renrui and Liu, Yufei and Wang, Kai, Ouyang, Wanli and Xiong, Zhiwei and Gao, Peng and Hou, Qibin and Cheng, Ming-Ming},
     booktitle={arxiv:24},
     year={2024}
